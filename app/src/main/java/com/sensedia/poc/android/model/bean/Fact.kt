@@ -8,5 +8,4 @@ data class Fact(var categories: List<String> = ArrayList(),
                 var id: String = "",
                 var updated_at: String = "",
                 var url: String = "",
-                var value: String = "") {
-}
+                var value: String = "")

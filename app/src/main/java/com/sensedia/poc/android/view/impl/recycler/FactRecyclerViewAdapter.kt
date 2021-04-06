@@ -16,24 +16,16 @@ class FactRecyclerViewAdapter(var facts: List<Fact>): RecyclerView.Adapter<Recyc
     class FactsRecyclerViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
 
         fun setData(fact: Fact) {
-            val imageView = itemView.findViewById<ImageView>(R.id.factImageView)
-            Picasso.get()
-                .load(fact.icon_url)
-                .resize(89,89).into(imageView)
-            val textView = itemView.findViewById<TextView>(R.id.factTextView)
-            textView.text = fact.value
         }
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
-        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_main, null)
-        return FactsRecyclerViewHolder(itemView)
+        return FactsRecyclerViewHolder(parent)
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        val factsHolder = holder as FactsRecyclerViewHolder
-        factsHolder.setData(facts[position])
     }
 
-    override fun getItemCount() = facts.size
+    override fun getItemCount() = 0
 }

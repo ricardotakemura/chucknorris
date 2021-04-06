@@ -2,9 +2,8 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     /**
-     * @TODO 2 - Adicionar plugins 'kotlin-android-extensions' e 'kotlin-kapt'
+     * @TODO 2 - Adicionar plugins 'kotlin-android-extensions'
      */
-    id 'kotlin-android-extensions'
 }
 
 android {
@@ -46,9 +45,9 @@ dependencies {
     /**
      * @TODO 1 - Adicionar as bibliotecas
      * - Retrofit (https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit)
+     * implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+     * implementation 'com.squareup.retrofit2:converter-jackson:2.9.0'
      */
-    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:converter-jackson:2.9.0'
     implementation 'com.squareup.picasso:picasso:2.8'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
