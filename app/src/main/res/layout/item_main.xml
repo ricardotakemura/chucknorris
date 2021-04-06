@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/factImageView"
+        android:layout_width="89sp"
+        android:layout_height="89sp"/>
+    <TextView
+        android:id="@+id/factTextView"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:layout_width="match_parent"
+        android:layout_height="89sp"/>
+</LinearLayout>
