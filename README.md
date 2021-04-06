@@ -2,8 +2,15 @@
 
 ## Atividades
 
-1. Adicionar dependências do [retrofit](https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit) e [picasso](https://mvnrepository.com/artifact/com.squareup.picasso/picasso) no build.gradle da app
+1. Adicionar o plugin 'kotlin-android-extensions' e dependências do [retrofit](https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit) e [picasso](https://mvnrepository.com/artifact/com.squareup.picasso/picasso) no build.gradle da app
 ```
+/*...*/
+plugins {
+    /*...*/
+    id 'kotlin-android-extensions'
+    /*...*/
+}
+/*...*/
 dependencies {
     /*...*/
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
@@ -11,6 +18,7 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.8'
     /*...*/
 }
+/*...*/
 ```
 
 2. Adicionar permissão de acesso a INTERNET no AndroidManifest.xml
