@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sensedia.poc.android">
     <!--
-    @TODO - 2 Adicionar permissão de acesso a internet
+    @TODO 2 Adicionar permissão de acesso a internet
     <uses-permission android:name="android.permission.INTERNET"/>
     -->
     <application

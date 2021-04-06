@@ -5,7 +5,7 @@ import com.sensedia.poc.android.model.bean.Facts
 
 interface FactService {
 
-    //@TODO MOCK
+    //@TODO 3 Retirar este código
     interface Call<T>
 
     fun getFacts(query: String): Call<Facts>
