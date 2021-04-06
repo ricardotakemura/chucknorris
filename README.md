@@ -60,7 +60,7 @@ class FactPresenterImpl(val view: FactView, val model: FactModel): FactPresenter
 }
 ```
 
-6. Na MainActivity, adicionar modificar a proprieade privada factPresenter de:
+6. Na MainActivity, modificar a proprieade privada factPresenter de:
 ```kotlin
     val factPresenter = object : FactPresenter {
         override fun obtainFacts() {
