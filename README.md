@@ -3,7 +3,7 @@
 ## Atividades
 
 1. Adicionar dependências do [retrofit](https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit) e [picasso](https://mvnrepository.com/artifact/com.squareup.picasso/picasso) no build.gradle da app
-```json
+```
 dependencies {
     /*...*/
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
