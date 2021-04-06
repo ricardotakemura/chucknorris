@@ -8,6 +8,7 @@
 plugins {
     /*...*/
     id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
     /*...*/
 }
 /*...*/
