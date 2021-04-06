@@ -3,8 +3,8 @@
     package="com.sensedia.poc.android">
     <!--
     @TODO - 2 Adicionar permissão de acesso a internet
-    -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
