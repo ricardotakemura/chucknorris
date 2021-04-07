@@ -2,7 +2,7 @@
 
 ## Atividades
 
-1. Adicionar o plugin 'kotlin-android-extensions' e as dependências do [retrofit](https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit) e [picasso](https://mvnrepository.com/artifact/com.squareup.picasso/picasso) no build.gradle da app
+1. Adicionar os plugins 'kotlin-android-extensions' e 'kotlin-kapt' e as dependências do [retrofit](https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit) e [picasso](https://mvnrepository.com/artifact/com.squareup.picasso/picasso) no build.gradle da app
 ```
 /*...*/
 plugins {
