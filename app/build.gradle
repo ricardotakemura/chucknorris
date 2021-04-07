@@ -5,6 +5,7 @@ plugins {
      * @TODO 2 - Adicionar plugins 'kotlin-android-extensions' e 'kotlin-kapt'
      */
     id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
 }
 
 android {

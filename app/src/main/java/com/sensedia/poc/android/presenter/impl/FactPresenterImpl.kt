@@ -10,10 +10,10 @@ import java.util.concurrent.Executors
 
 class FactPresenterImpl(val view: FactView, val model: FactModel): FactPresenter {
 
-    private val handler = Handler(Looper.getMainLooper());
-    private val executor = Executors.newCachedThreadPool();
+    private val handler = Handler(Looper.getMainLooper())
+    private val executor = Executors.newCachedThreadPool()
 
-    override fun getFacts() {
+    override fun obtainFacts() {
         executor.execute {
             val facts = model.getFacts()
             handler.post {
